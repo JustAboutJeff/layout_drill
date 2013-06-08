@@ -1,3 +1,6 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300);
+
+
 .container {
   /*
     If you have a block-level element of a certain width, margin: 0 auto;
@@ -9,6 +12,46 @@
   */
   margin: 0 auto;  
   width: 720px;
+}
+header {
+  border-bottom: 1px solid #bbbbbb;
+  line-height: 75%;
+  margin-bottom: 30px;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 50px 0;
+  font-weight: 800;
+}
+
+div.content {
+
+}
+
+section p {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  color: #555555;
+  line-height: 150%;
+  padding-left: 10px;
+}
+
+blockquote {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 300;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-style: italic;
+  color: #555555;
 }
 
 small.page_no {
@@ -32,7 +75,7 @@ small.page_no {
   padding: 0 10px;
   text-decoration: underline;
   border: 1px solid #bbbbbb;
-  margin: 0 0 0 -5px;
+  /*margin: 0 0 0 -5px;*/
 }
 
 .pagination a.disabled {
